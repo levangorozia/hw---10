@@ -7,6 +7,7 @@
     background-repeat: no-repeat;
     background-size:cover;
     position: relative;
+    margin-bottom: 50px;
 }
 
 
@@ -22,7 +23,6 @@
 
 .tetri-boldi{
     color: #FFFFFF;
-    /* width: 86px; */
     font-size: 12px;
     font-family: 'Poppins';
     font-weight: bold;
@@ -71,19 +71,26 @@
     display: flex;
     align-items: center;
 }
+
 .contact{
     font-size: 42px;
     color: #FFFFFF;
     font-family: 'Poppins';
     font-weight: bold;
-   
+ }
 
+.div-content2{
+    width: 130px;
+    height: 25px;
+    margin-bottom: 85px;
+    display: flex;
+    align-items: center;
 }
-
 .mini-Home{
     font-size: 14px;
+    display: flex;
+    align-items: center;
     color: #FFFFFF;
-    margin-top: 14px;
     font-family: 'Poppins';
     font-weight: bold;
 }
@@ -92,12 +99,53 @@
 
     font-size: 14px;
     color: #FFFFFF;
-    margin-top: 14px;
     font-family: 'Poppins';
     font-weight: bold;
-    margin-left: 31px;
+    height: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .mini-Home::after{
-    content: ;
+    content: '';
+    width: 2px;
+    height: 19px;
+    background-color: #FFFFFF;
+    display: inline-block;
+    margin-left: 14.5px;
+    margin-right: 14.5px;
+}
+
+/* #1 section style */
+
+.section-1{
+    display: flex;
+    justify-content: center;
+     
+}
+
+.ruka{
+    width: 80%;
+    margin-bottom: 60px;
+}
+/* section #2 */
+
+.wraper{
+    width: 380px;
+    height: 135px;
+    margin-left: 190px;
+}
+
+.satauri-contact{
+    color: #5863F8;
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.paragraph-contact{
+    color: #000000;
+    font-size: 42px;
+    font-family: 'Poppins';
+    font-weight: bold;
 }
