@@ -1,0 +1,103 @@
+.head-div-img{
+    background-image: url(../images/header-img.jpg);
+    background-color: #000000;
+    width: 100%;
+    height: 324px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
+
+
+.nav-class{
+    display: flex;
+    color: #FFFFFF;
+    width: 1088px;
+    height: 20px;
+    position: absolute;
+    margin-left: 139px;
+    margin-top: 30px;
+}
+
+.tetri-boldi{
+    color: #FFFFFF;
+    /* width: 86px; */
+    font-size: 12px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+.tetri-boldi-1{
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-right: 439px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.lurji-boldi{
+    color: #5863F8;
+    font-size: 12px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    margin-right: 49px;
+}
+
+.rooms{
+    margin-right: 60px;
+}
+
+.Restaurant{
+    margin-right: 47px;
+}
+
+.blog{
+    margin-right: 49px;
+    margin-left: 49px;
+}
+   
+.mini-dv{
+    position: absolute;
+    width: 177px;
+    height: 93px;
+    margin-top: 146px;
+    margin-left: 139px;
+    margin-bottom: 119px;
+}
+
+.div-contact{
+    width: 177px;
+    height: 59px;
+    display: flex;
+    align-items: center;
+}
+.contact{
+    font-size: 42px;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-weight: bold;
+   
+
+}
+
+.mini-Home{
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 14px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.mini-contact{
+
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 14px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    margin-left: 31px;
+}
+
+.mini-Home::after{
+    content: ;
+}
