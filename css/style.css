@@ -1,6 +1,5 @@
 .head-div-img{
-    background-image: url(../images/header-img.jpg);
-    background-color: #000000;
+    background-image: url(../images/header.img.svg);
     width: 100%;
     height: 324px;
     background-position: center;
@@ -17,7 +16,7 @@
     width: 1088px;
     height: 20px;
     position: absolute;
-    margin-left: 139px;
+    margin-left: 200px;
     margin-top: 30px;
 }
 
@@ -61,7 +60,7 @@
     width: 177px;
     height: 93px;
     margin-top: 146px;
-    margin-left: 139px;
+    margin-left: 200px;
     margin-bottom: 119px;
 }
 
@@ -125,9 +124,9 @@
 }
 
 .ruka{
-    width: 80%;
     margin-bottom: 60px;
 }
+
 /* section #2 */
 
 .wraper{
@@ -148,4 +147,16 @@
     font-size: 42px;
     font-family: 'Poppins';
     font-weight: bold;
+    line-height: 1.5;
+   
+}
+
+.div-form-wraper{
+    display: flex;
+    flex-direction: column;
+}
+.input-box{
+    max-width: 352px;
+    width: 100%;
+    height: 60px;
 }
