@@ -240,11 +240,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 200px;
+    
 }
-.div-email{
+.div-email {
     max-width: 400px;
     width: 400px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 .fa-solid{
     width: 16px;
@@ -254,6 +261,10 @@
 .div-phone{
     max-width: 400px;
     width: 400px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
 .phone-border, .email-border, .location-border{
@@ -267,5 +278,44 @@
     align-items: center;
 }
 
+.div-misamarti{
+    max-width: 400px;
+    width: 400px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
 
+/* section #3 */
+.text-box{
+    max-width: 565px;
+    width: 100%;
+    margin-left: 295px;
+}
 
+.photos{
+    font-size: 14px;
+    font-weight: bold;
+    color: #5863F8;
+}
+.rest-hotel{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.photo-box{
+    display: flex;
+    justify-content: space-around
+}
+
+/* footer */
+
+.footer{
+    width: 100%;
+    /* background-color: black; */
+    position: relative;
+    height: 400px;
+}
